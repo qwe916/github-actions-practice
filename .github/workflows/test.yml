@@ -17,6 +17,6 @@ jobs:
       - run: bats -v
       - run: echo "힘내! 오늘도 힘내!"
       - run: echo "나는 ${{github.actor}}야"
-      - run: echo "{{github.event_name}} event에 의해서 자동의로 실행됐어"
+      - run: echo "${{github.event_name}} event에 의해서 자동의로 실행됐어"
       
       
